@@ -1,0 +1,22 @@
+@keyframes bounce {
+  33% { transform: translateY(-20px); }
+  66% { transform: translateY(0px); }
+}
+
+.bounce {
+  animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes mymove {
+  0%   {top: 0px;}
+  10%  {top: 3000px;}
+  25%  {top: 200px;}
+  75%  {top: 50px}
+  100% {top: 100px;}
+}
+
+@keyframes shiftBackgroundLeft4rem {
+  to {
+    background-position: 8rem 0;
+  }
+}

@@ -1,0 +1,15 @@
+.no-bg {
+    background: none;
+}
+
+.blue {
+    color: hsl(210, 61%, 31%);
+}
+
+.on-faint-blue {
+    background-color: hsla(210, 61%, 51%, 0.1);
+}
+
+.red {
+
+}
